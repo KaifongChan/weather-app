@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Shadows+Into+Light&display=swap');
+    </style>
+</head>
+
+<body>
+    <main>
+        <header class="header">
+            <form action="">
+                <input type="text" id="search-location" name="search-location" placeholder="Search for a city">
+                <button class="submitBtn">Submit</button>
+                <button class="unitBtn">Change units</button>
+            </form>
+        </header>
+        <div class="container">
+            <div class="location-container">
+                <h3 class="condition"></h3>
+                <h1 class="location"></h1>
+            </div>
+            <div class="info-container">
+                <h2 class="temperature"></h2><span class="unit"></span>
+                <p class="rough-temp"></p><span class="unit"></span>
+                <p class="wind-speed"></p>
+                <p class="humidity"></p>
+            </div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>

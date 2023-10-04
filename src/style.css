@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'EB Garamond', serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../src/assets/landscape.jpg");
+    background-size: cover;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+}
+
+.header form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.header #search-location {
+    margin-top: 40px;
+    font-size: 40px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    color: rgb(225, 179, 28);
+    background-color: ghostwhite;
+    opacity: 0.6;
+}
+
+.header .submitBtn {
+    width: 30%;
+    height: 20px;
+}
+
+.header .unitBtn {
+    position: absolute;
+    top: 92.5%;
+    left: 95%;
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    font-size: 10px;
+    border: none;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+::placeholder {
+    color:rgb(225, 179, 28);
+    font-family: 'EB Garamond', serif;
+    opacity: 1.0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #9e8e8e;
+    opacity: 0.6;
+    font-family: 'EB Garamond', serif;
+    color: white;
+    height: 70%;
+    margin-bottom: 10%;
+}
+
